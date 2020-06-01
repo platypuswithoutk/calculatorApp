@@ -1,0 +1,26 @@
+@media screen and (max-width: 350px) {
+    #calculator {
+        width: 270px;
+        height: 500px;
+    }
+
+    #keyboard {
+        padding-top: 20px;
+    }
+
+    .operator, .number, .empty {
+        width: 40px;
+        height: 43px;
+        margin: 11px;
+    }
+
+    #output {
+        margin: 23px 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #output {
+        margin: 23px 20px;
+    }
+}
